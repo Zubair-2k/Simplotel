@@ -110,7 +110,7 @@
     }
 }
 
-@media screen and (min-width : 481px) and (max-width : 767px) and (orientation: landscape){
+@media screen and (min-width : 481px) and (max-width : 767px){
     .openingPage{
         flex-direction: column;
     }
@@ -121,6 +121,32 @@
         flex-direction: column;
     }
 
+    .openingPageLeftImg1{
+        width: 100px;
+        height: 150px;
+    }
+
+    .openingPageLeftImg2{
+        width: 100px;
+        height: 150px;
+    }
+
+    .openingPageRightImg{
+        width: 150px;
+        height: 310px;
+    }
+
+    .openPageDetail{
+        width: 200px;
+    }
+
+    .openPageDetailContent{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
     .openingPageLeftImg1{
         width: 100px;
         height: 150px;
